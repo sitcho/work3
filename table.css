@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.table {
+  background-color: rgb(195, 227, 238);
+  width: 80vw;
+  height: auto;
+  padding: 60px 80px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: lightblue;
+  background-size: cover;
+  background-image: url("https://ps.w.org/tiny-compress-images/assets/icon-256x256.png?rev=1088385");
+}
+
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.nickname {
+  color: gray;
+}
+.username {
+  font-weight: bold;
+}
+
+.statusImg {
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.mainTable {
+  text-align: center;
+}
+
+.mainTable tbody > tr,
+td {
+  padding: 3px 15px;
+  background-color: white;
+}
+
+.mainTable {
+  border-collapse: separate;
+  border-spacing: 0ch;
+}
+
+.x {
+  border-bottom: 10px solid transparent;
+}
+
+.x::after {
+  height: 10px;
+  display: table-row;
+  content: "";
+}
